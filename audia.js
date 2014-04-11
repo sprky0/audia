@@ -1,8 +1,9 @@
 /*
-Audia: <audio> implemented using the Web Audio API
-by Matt Hackett of Lost Decade Games
+	Audia: <audio> implemented using the Web Audio API
+	by Matt Hackett of Lost Decade Games
+	AMD port by sprky0
 */
-var Audia = (function () {
+define("audia",[],function() {
 
 	// Got Web Audio API?
 	var audioContext = null;
@@ -608,4 +609,4 @@ var Audia = (function () {
 
 	return Audia;
 
-})();
+});

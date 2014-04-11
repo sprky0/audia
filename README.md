@@ -1,4 +1,4 @@
-# Audia
+# Audia (AMD port)
 
 Audia reimplements and extends the [HTML5 Audio][1] object using the [Web Audio API][2].
 
